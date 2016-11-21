@@ -1,0 +1,109 @@
+
+html {
+    padding: 0;
+    margin 0;
+    background-color:black;
+    
+}
+.video-div{
+    position:fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+#videobcg { 
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   min-width: 100%;
+   min-height: 100%;
+   width: auto;
+   height: auto;
+   z-index: -1000;
+   overflow: hidden;
+    -webkit-filter: blur(3px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
+}
+
+.container {
+    margin: auto;
+    width:50%;
+    position: relative;
+    padding: 10px;
+}
+
+
+li {
+    display: inline-block;
+    margin: 50px;
+}
+#bg a{
+     background-image: url(media/bg.jpg);
+    background-size: contain;
+    border-radius: 50px
+   
+}
+#de a{
+    background-image: url(media/de.png);
+    background-size: contain;
+    border-radius: 50px
+}
+li a{
+    text-decoration: none;
+    font-family: 'PresentScript Cyrillic', arial;
+    font-size: 2em;
+    color: #000;
+    font-weight: bold;
+    padding: 20px;
+    transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    
+}
+li a:hover {
+    color: #ffffff;
+    text-shadow: 0px 0px 12px #000;
+    transition: 0.8s;
+    -webkit-filter: grayscale(50%);
+    -moz-filter: grayscale(50%);
+    -ms-filter: grayscale(50%);
+    -o-filter: grayscale(50%);
+    
+}
+.container p {
+    text-align: center;
+    font-family: 'PresentScript Cyrillic', arial;
+    font-size: 3em;
+    color: #fff;
+    text-shadow: 8px 0px 25px  rgb(0, 0, 0),
+                -8px 0px 25px  rgb(0, 0, 0),
+                 0px 8px 25px  rgb(0, 0, 0),
+                 0px -8px 25px rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.footer {
+    clear: both;
+    text-align: center;
+    margin-top: 1%;
+    width: 100%;
+    border-radius: 12px;
+    word-wrap: break-word;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative; 
+}
+.footer p {
+    margin: 5px;
+    font-family: monospace;
+    font-size: 1.8em;
+    color: #ffffff;
+    text-shadow: 0 0 10px black;
+    text-decoration: none;    
