@@ -1,5 +1,5 @@
 # petra-jordan-multilanguage-website
-###:octocat: Multi language website about acient Petra city. 
+###:octocat: Multi language website about acient city Petra in Jordan. 
 ####Languages:
   * _Bulgarian_,
   * _German_.
